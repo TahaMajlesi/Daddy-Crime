@@ -1,0 +1,22 @@
+{
+    "characters": [{
+            "id": 1,
+            "name": "Jack Smith",
+            "gender": "Male",
+            "role": "father",
+            "age": 47
+        },
+        {
+            "name": "Elizabeth Smith",
+            "gender": "Female",
+            "role": "older daughter",
+            "age": 17
+        },
+        {
+            "name": "Judi Smith",
+            "gender": "Female",
+            "role": "Younger daughter",
+            "age": 17
+        }
+    ]
+}

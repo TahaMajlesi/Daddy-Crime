@@ -1,0 +1,18 @@
+{
+  "name": "daddy-crime",
+  "version": "1.0.0",
+  "description": "It's a text based game with secrets theme for Game Off 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "98.css": "^0.1.20",
+    "jquery": "^3.7.1",
+    "live-server": "^1.2.2",
+    "typed.js": "^2.1.0"
+  }
+}
