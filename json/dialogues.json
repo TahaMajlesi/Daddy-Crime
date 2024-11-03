@@ -1,0 +1,12 @@
+[{
+        "id": 0,
+        "dialogue": "Hello",
+        "character": "father",
+        "cutScene": true,
+        "font": "FatherFont",
+        "TypingSpeed": 50,
+        "TextSize": "4xl",
+        "TextColor": "red-500"
+    }
+
+]
