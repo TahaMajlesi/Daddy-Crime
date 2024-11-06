@@ -3,10 +3,8 @@
         "dialogue": "Hello",
         "character": "father",
         "cutScene": true,
-        "font": "FatherFont",
         "TypingSpeed": 50,
-        "TextSize": "4xl",
-        "TextColor": "white"
+        "class": ["font-FatherFont", "text-4xl", "text-white"]
     }
 
 ]
