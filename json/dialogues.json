@@ -4,7 +4,7 @@
         "character": "father",
         "cutScene": true,
         "TypingSpeed": 50,
-        "class": ["font-FatherFont", "text-4xl", "text-white"]
+        "class": ["font-FatherFont", "text-4xl", "text-red-500"]
     }
 
 ]
