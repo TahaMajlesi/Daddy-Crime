@@ -5,14 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daddy's Crime</title>
-    <link rel="stylesheet" href="node_modules/98.css/dist/98.css">
     <script src="node_modules/typed.js/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- CutScene Screen Start -->
-    <div class="bg-black h-screen flex w-full p-4" id="CutScene">
+    <div class="bg-black h-screen flex w-full flex-col" id="CutScene">
+        <!-- TabBar Start -->
+        <div class="w-full flex text-white mb-4 border-white border-b-2 items-center">
+            <!-- Settings Button Start -->
+            <button class="py-2 px-3 border-2 border-b-0 border-white me-auto" id="Setting-Btn"><i
+                    class="fa-solid fa-gear text-2xl transition-all"></i></button>
+            <!-- Settings Button End -->
+            <!-- Hints Box Start -->
+            <p class="text-white w-11/12 me-auto px-2 text-xl font-semibold" id="Hint-box"></p>
+            <!-- Hints Box End -->
+            <!-- Hints Button Start -->
+            <button class="py-2 px-3 border-2 border-b-0 border-white disabled:bg-red-500" id="Hint-Btn"><i
+                    class="fa-solid fa-question text-2xl transition-all"></i>
+            </button>
+            <!-- Hints Button End -->
+            <!-- Save Button Start -->
+            <button class="py-2 px-3 border-2 border-b-0 border-white" id="Save-Btn"><i
+                    class="fa-regular fa-floppy-disk text-2xl transition-all"></i>
+            </button>
+            <!-- Save Button End -->
+        </div>
+        <!-- TabBar End -->
         <p id="Script" class=""></p>
     </div>
     <!-- CutScene Screen End -->
@@ -30,6 +53,7 @@
     <script src="scripts/General/Assets.js"></script>
     <script src="scripts/General/F11-Recommended.js"></script>
     <script src="scripts/CutScene/CutScene.js"></script>
+    <script src="scripts/General/Buttons.js"></script>
 </body>
 
 </html>
